@@ -49,4 +49,4 @@ Feel free to check the [issues page](https://github.com/alphayowakarindi/math-ma
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
