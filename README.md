@@ -21,8 +21,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 1. Go to terminal and ```cd``` into the directory of your preference.
-2.  Run ```git@github.com:alphayowakarindi/math-magicians.git``` to clone the app.
-3. ```npm install``` to install the dependencies used to develop and test the app.
+2. Run ```git@github.com:alphayowakarindi/math-magicians.git``` to clone the app.
+3. ```cd``` into the ```cloned repo```
+4. Run  ```npm install``` to install the dependencies used to develop and test the app.
+5. Run ```npm start``` and the app will automatically open in your default browser.
 
 
 ### Run tests
@@ -47,4 +49,4 @@ Feel free to check the [issues page](https://github.com/alphayowakarindi/math-ma
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
