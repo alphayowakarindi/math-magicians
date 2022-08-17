@@ -7,11 +7,13 @@
 body {
   overflow-x: hidden;
 }
+
 .calculator {
   display: grid;
   justify-content: center;
   padding-top: 30px;
 }
+
 .calculator-container {
   background-color: transparent !important;
   min-width: 350px;
@@ -32,10 +34,6 @@ body {
   margin-right: 5px;
   color: #fff;
   font-size: 21px;
-}
-
-.calculator-container .span-2 {
-  grid-column: span 2;
 }
 
 .calculator-container .span-2 {
