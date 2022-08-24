@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -13,7 +13,7 @@ class App extends React.Component {
         <Navbar />
         <div className="main">
           <Calculator />
-          <Home/>
+          <Home />
         </div>
       </div>
     );
