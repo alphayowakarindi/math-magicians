@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .calculator-content {
@@ -95,7 +98,7 @@ body {
 
 h2 {
   margin-bottom: 35px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .home p {
@@ -113,7 +116,7 @@ h2 {
   font-size: 26px;
 }
 
-.quote span {
+.main .quote span {
   margin-left: 3px;
   font-style: italic;
   font-size: 21px;
