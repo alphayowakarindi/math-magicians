@@ -1,16 +1,20 @@
+import { Link } from 'react-router-dom';
+
 function Navbar() {
   return (
     <div className="navbar">
-      <h1><a href="/home">Math Magicians</a></h1>
+      <h1>
+        <Link to="/">Math Magicians</Link>
+      </h1>
       <ul>
         <li>
-          <a href="/home">Home |</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/calculator">Calculator |</a>
+          <Link to="/calculator">Calculator</Link>
         </li>
         <li>
-          <a href="/auote">Quote |</a>
+          <Link to="/quote">Quote</Link>
         </li>
       </ul>
     </div>

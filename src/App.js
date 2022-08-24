@@ -1,6 +1,6 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -12,8 +12,10 @@ class App extends React.Component {
       <div className="App">
         <Navbar />
         <div className="main">
-          <Calculator />
-          <Home />
+          <Routes>
+            <Route path="/calculator" element={<Calculator />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
         </div>
       </div>
     );
