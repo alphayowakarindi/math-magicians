@@ -101,3 +101,20 @@ h2 {
 .home p {
   margin: 14px 0;
 }
+
+.quote {
+  height: calc(100vh - 86.8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote p {
+  font-size: 26px;
+}
+
+.quote span {
+  margin-left: 3px;
+  font-style: italic;
+  font-size: 21px;
+}
