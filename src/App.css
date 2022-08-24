@@ -52,3 +52,33 @@ body {
   cursor: pointer;
   border: 1px solid #bababa;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: pink;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.navbar h1 a {
+  color: #000;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 10px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar ul li a {
+  color: #00802b;
+  font-size: 18px;
+}
