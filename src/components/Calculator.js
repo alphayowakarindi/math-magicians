@@ -12,76 +12,79 @@ function Calculator() {
   const { total, next, operation } = data;
 
   return (
-    <div className="calculator">
-      <div className="calculator-container">
-        <div className="output">
-          <span>
-            {total}
-            {operation}
-            {next}
-          </span>
+    <div className="calculator-content">
+      <h2>{'Let\'s do some math!'}</h2>
+      <div className="calculator">
+        <div className="calculator-container">
+          <div className="output">
+            <span>
+              {total}
+              {operation}
+              {next}
+            </span>
+          </div>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            AC
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            +/-
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            %
+          </button>
+          <button type="button" className="operator" onClick={compute}>
+            &#247;
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            7
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            8
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            9
+          </button>
+          <button type="button" className="operator" onClick={compute}>
+            x
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            4
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            5
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            6
+          </button>
+          <button type="button" className="operator" onClick={compute}>
+            -
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            1
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            2
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            3
+          </button>
+          <button type="button" className="operator" onClick={compute}>
+            +
+          </button>
+          <button
+            type="button"
+            className="span-2 bg-light-grey"
+            onClick={compute}
+          >
+            0
+          </button>
+          <button type="button" className="bg-light-grey" onClick={compute}>
+            .
+          </button>
+          <button type="button" className="operator" onClick={compute}>
+            =
+          </button>
         </div>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          AC
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          +/-
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          %
-        </button>
-        <button type="button" className="operator" onClick={compute}>
-          &#247;
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          7
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          8
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          9
-        </button>
-        <button type="button" className="operator" onClick={compute}>
-          x
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          4
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          5
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          6
-        </button>
-        <button type="button" className="operator" onClick={compute}>
-          -
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          1
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          2
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          3
-        </button>
-        <button type="button" className="operator" onClick={compute}>
-          +
-        </button>
-        <button
-          type="button"
-          className="span-2 bg-light-grey"
-          onClick={compute}
-        >
-          0
-        </button>
-        <button type="button" className="bg-light-grey" onClick={compute}>
-          .
-        </button>
-        <button type="button" className="operator" onClick={compute}>
-          =
-        </button>
       </div>
     </div>
   );

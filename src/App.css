@@ -8,18 +8,24 @@ body {
   overflow-x: hidden;
 }
 
+.calculator-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-top: 45px;
+}
+
 .calculator {
   display: grid;
   justify-content: center;
-  padding-top: 30px;
 }
 
 .calculator-container {
   background-color: transparent !important;
-  min-width: 350px;
+  width: 900px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 50px);
+  grid-template-rows: repeat(6, 100px);
 }
 
 .calculator-container .output {
@@ -61,6 +67,10 @@ body {
   padding: 25px;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar h1 a {
   color: #000;
 }
@@ -74,10 +84,6 @@ body {
   list-style: none;
 }
 
-.navbar a {
-  text-decoration: none;
-}
-
 .navbar ul li a {
   color: #00802b;
   font-size: 18px;
@@ -87,7 +93,7 @@ body {
   padding: 35px 25px 0 25px;
 }
 
-.home h2 {
+h2 {
   margin-bottom: 35px;
   font-weight: 500;
 }
