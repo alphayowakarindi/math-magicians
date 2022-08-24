@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,20 +8,27 @@
 
 body {
   overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.calculator-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-top: 45px;
 }
 
 .calculator {
   display: grid;
   justify-content: center;
-  padding-top: 30px;
 }
 
 .calculator-container {
   background-color: transparent !important;
-  min-width: 350px;
+  width: 900px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 50px);
+  grid-template-rows: repeat(6, 100px);
 }
 
 .calculator-container .output {
@@ -51,4 +60,64 @@ body {
 .calculator-container button {
   cursor: pointer;
   border: 1px solid #bababa;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: pink;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar h1 a {
+  color: #000;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 10px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: #00802b;
+  font-size: 18px;
+}
+
+.home {
+  padding: 35px 25px 0 25px;
+}
+
+h2 {
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+.home p {
+  margin: 14px 0;
+}
+
+.quote {
+  height: calc(100vh - 86.8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote p {
+  font-size: 26px;
+}
+
+.main .quote span {
+  margin-left: 3px;
+  font-style: italic;
+  font-size: 21px;
 }
