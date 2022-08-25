@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render home 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home"
+      >
+        <h2>
+          Welcome to our page!
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo possimus suscipit doloribus maiores quibusdam, qui sunt sit iusto esse quasi voluptas eligendi cumque error deserunt quod hic officia, facilis in minus obcaecati. Incidunt consectetur debitis corrupti dolore necessitatibus delectus fuga reprehenderit eum totam aut libero, aliquid ad repudiandae architecto numquam soluta odio voluptatibus. Vitae quia perspiciatis autem, facere ullam, aliquam odio reprehenderit laudantium hic eum natus aliquid sint assumenda et at! Similique ipsa suscipit recusandae non repudiandae doloremque facilis dolore dolorum assumenda sequi labore, perspiciatis nisi aspernatur vel doloribus nesciunt sunt itaque! Sunt asperiores quis at facere nulla omnis?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo possimus suscipit doloribus maiores quibusdam, qui sunt sit iusto esse quasi voluptas eligendi cumque error deserunt quod hic officia, facilis in minus obcaecati. Incidunt consectetur debitis corrupti dolore necessitatibus delectus fuga reprehenderit eum totam aut libero, aliquid ad repudiandae architecto numquam soluta odio voluptatibus. Vitae quia perspiciatis autem, facere ullam, aliquam odio reprehenderit laudantium hic eum natus aliquid sint assumenda et at! Similique ipsa suscipit recusandae non repudiandae doloremque facilis dolore dolorum assumenda sequi labore, perspiciatis nisi aspernatur vel doloribus nesciunt sunt itaque! Sunt asperiores quis at facere nulla omnis?
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home"
+    >
+      <h2>
+        Welcome to our page!
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo possimus suscipit doloribus maiores quibusdam, qui sunt sit iusto esse quasi voluptas eligendi cumque error deserunt quod hic officia, facilis in minus obcaecati. Incidunt consectetur debitis corrupti dolore necessitatibus delectus fuga reprehenderit eum totam aut libero, aliquid ad repudiandae architecto numquam soluta odio voluptatibus. Vitae quia perspiciatis autem, facere ullam, aliquam odio reprehenderit laudantium hic eum natus aliquid sint assumenda et at! Similique ipsa suscipit recusandae non repudiandae doloremque facilis dolore dolorum assumenda sequi labore, perspiciatis nisi aspernatur vel doloribus nesciunt sunt itaque! Sunt asperiores quis at facere nulla omnis?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo possimus suscipit doloribus maiores quibusdam, qui sunt sit iusto esse quasi voluptas eligendi cumque error deserunt quod hic officia, facilis in minus obcaecati. Incidunt consectetur debitis corrupti dolore necessitatibus delectus fuga reprehenderit eum totam aut libero, aliquid ad repudiandae architecto numquam soluta odio voluptatibus. Vitae quia perspiciatis autem, facere ullam, aliquam odio reprehenderit laudantium hic eum natus aliquid sint assumenda et at! Similique ipsa suscipit recusandae non repudiandae doloremque facilis dolore dolorum assumenda sequi labore, perspiciatis nisi aspernatur vel doloribus nesciunt sunt itaque! Sunt asperiores quis at facere nulla omnis?
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
