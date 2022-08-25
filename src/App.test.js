@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
 
 test('renders learn react link', () => {
   render(
     <Router>
-       <App />
-    </Router>
-   );
+      <App />
+    </Router>,
+  );
   const linkElement = screen.getByText(/Math Magicians/i);
   expect(linkElement).toBeInTheDocument();
 });

@@ -8,8 +8,8 @@ test('If AC button is clicked the reusult null obj', () => {
         next: '5',
         operation: null,
       },
-      'AC'
-    )
+      'AC',
+    ),
   ).toEqual({
     total: null,
     next: null,
